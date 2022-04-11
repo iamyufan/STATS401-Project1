@@ -35,18 +35,20 @@ getJSON.ipynb
 ../data/sholors_duke/[duid]/json
 ```
 
-### Step 3. Clean JSON Files to CSV Table
+### Step 3. Clean the Faculty Data
 
 Clean up the JSON files from Step 2.
 
 ```bash
-getInfo
+getInfo.ipynb
+clean.ipynb
 ```
 
 **output**
 
 ```
 ../data/cleaned_info.csv
+../data/cleaned.json
 ```
 
 ### Step 4. Get DKU Course Info
