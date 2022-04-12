@@ -2,7 +2,7 @@
 
 Personal repo for STATS 401 Project 1 at DKU
 
-## Create Dataset
+## **Data Scraping**
 
 ### Step 1. Get DUID
 
@@ -26,7 +26,7 @@ work.py
 Get the information of faculty members from [Scholars@Duke](https://scholars.duke.edu/) via [Scholars widgets API](https://scholars.duke.edu/widgets/docs/#/). The informations are stored as JSON files.
 
 ```bash
-getJSON.ipynb
+DataCrawlClean.ipynb
 ```
 
 **output**
@@ -35,13 +35,14 @@ getJSON.ipynb
 ../data/sholors_duke/[duid]/json
 ```
 
+# Data Cleaning
+
 ### Step 3. Clean the Faculty Data
 
 Clean up the JSON files from Step 2.
 
 ```bash
-getInfo.ipynb
-clean.ipynb
+DataCrawlClean.ipynb
 ```
 
 **output**
